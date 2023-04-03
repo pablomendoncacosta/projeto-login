@@ -4,3 +4,44 @@
 --var-1-:#49a09d;
 --var-2-:#5f2c82;
 }
+*{
+    margin:0 ;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--var-2-);
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.859);
+}
+section#login >div#imagem{
+    display: block;
+    background: #5f2c82 url(../imagens/pexels-vinícius-estevão-2896034.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+section#login >div#formulario{
+    display: block;
+    padding: 10px;
+}
