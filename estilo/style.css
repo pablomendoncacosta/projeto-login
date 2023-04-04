@@ -71,6 +71,7 @@ div.campo > input:focus-within{
 div.campo > label{
     display: none;
 }
+
 div.campo > span{
     color: white;
     font-size: 2em;
